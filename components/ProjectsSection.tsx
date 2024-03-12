@@ -1,34 +1,39 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "Thankful Thoughts",
-    description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+    name: "Food Project!",
+    description: "nextlevel food for nextlevel foodies🍔🥙.",
+    image: "/food.png",
+    github: "https://github.com/12nirmal/food-project-demo",
+    link: "https://github.com/12nirmal",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Jewellery Shop!",
+    description: "jewellery shop provide all type of jewellery.",
+    image: "/jewelry.png",
+    github: "https://github.com/12nirmal/jewellery-shop",
+    link: "https://github.com/12nirmal",
   },
   {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "ice cream dashboard!",
+    description: "ice cream dashboard provide all type of ice cream🍦🍨.",
+    image: "/dashboard.png",
+    github: "https://github.com/niks1860/api-builder-demo",
+    link: "https://github.com/12nirmal",
   },
-]
+  {
+    name: "e-commerce site",
+    description: "e-commerce shop provide all type of products📲💻.",
+    image: "/products.png",
+    github: "https://github.com/12nirmal/shopping-demo",
+    link: "https://github.com/12nirmal",
+  },
+];
 
 const ProjectsSection = () => {
   return (
@@ -78,12 +83,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
