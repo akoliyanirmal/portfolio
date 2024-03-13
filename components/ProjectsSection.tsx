@@ -27,10 +27,17 @@ const projects = [
     link: "https://github.com/12nirmal",
   },
   {
-    name: "e-commerce site",
+    name: "e-commerce site!",
     description: "e-commerce shop provide all type of products📲💻.",
     image: "/products.png",
     github: "https://github.com/12nirmal/shopping-demo",
+    link: "https://github.com/12nirmal",
+  },
+  {
+    name: "blog!",
+    description: "this is my personal blog.",
+    image: "/blog.png",
+    github: "https://github.com/12nirmal/blog.git",
     link: "https://github.com/12nirmal",
   },
 ];
